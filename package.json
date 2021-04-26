@@ -2,14 +2,18 @@
   "name": "szymon_portfolio_website",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon script.js",
+    "start": "node app.js ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Szymon Hernik",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "connect-livereload": "^0.6.1",
+    "livereload": "^0.9.3"
   }
 }
