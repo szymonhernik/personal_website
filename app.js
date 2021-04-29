@@ -8,7 +8,7 @@ var sass = require('node-sass');
 var sassMiddleware = require('node-sass-middleware');
 
 app.use(sassMiddleware({
-  src: path.join(__dirname, 'scss'),
+  src: path.join(__dirname, 'sass'),
   dest: path.join(__dirname, 'public'),
   debug: true,
   indentedSyntax: true

@@ -34,13 +34,13 @@ body {
   flex-shrink: 0;
   flex-grow: 1;
   width: 80vw;
-  height: 40vh;
+  height: 80vh;
   margin-right: 20px; }
   .project .slider .el {
     display: inline-block;
     margin: 10px;
     width: 40%;
-    height: 30%;
+    height: 100vh;
     background-color: lightgrey; }
 
 .project .text-project {
