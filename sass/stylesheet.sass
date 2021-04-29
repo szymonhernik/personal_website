@@ -1,0 +1,63 @@
+@font-face
+  font-family: Gramatika
+  src: url(fonts/GramatikaRegular.woff)
+
+@font-face
+  font-family: Gramatika_Italic
+  src: url(fonts/GramatikaSlanted.woff)
+
+@font-face
+  font-family: Gramatika_Bold
+  src: url(fonts/GramatikaBold.woff)
+
+@font-face
+  font-family: Gramatika_Bold_Italic
+  src: url(fonts/GramatikaBoldSlanted.woff)
+
+
+
+$font-stack: 'Gramatika', sans-serif
+
+
+*
+  margin: 0
+  padding: 0
+
+
+body
+  font: 100% $font-stack
+  background-color: rgb(246, 246, 246)
+  color: blue
+
+  .page
+    width: 100vw
+
+    .project
+      // overflow: scroll
+      width: 100vw
+      display: flex
+      flex-direction: row
+      overflow-x: scroll
+
+
+.project
+
+  .slider
+    flex-shrink: 0
+    flex-grow: 1
+    width: 80vw
+    height: 40vh
+    margin-right: 20px
+
+    .el
+      display: inline-block
+      margin: 10px
+      width: 40%
+      height: 30%
+      background-color: lightgrey
+
+  .text-project
+    flex-shrink: 0
+    flex-grow: 1
+    background-color: yellow
+    width: 100vw

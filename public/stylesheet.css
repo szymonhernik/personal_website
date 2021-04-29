@@ -1,0 +1,50 @@
+@font-face {
+  font-family: Gramatika;
+  src: url(fonts/GramatikaRegular.woff); }
+
+@font-face {
+  font-family: Gramatika_Italic;
+  src: url(fonts/GramatikaSlanted.woff); }
+
+@font-face {
+  font-family: Gramatika_Bold;
+  src: url(fonts/GramatikaBold.woff); }
+
+@font-face {
+  font-family: Gramatika_Bold_Italic;
+  src: url(fonts/GramatikaBoldSlanted.woff); }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font: 100% "Gramatika", sans-serif;
+  background-color: #f6f6f6;
+  color: blue; }
+  body .page {
+    width: 100vw; }
+    body .page .project {
+      width: 100vw;
+      display: flex;
+      flex-direction: row;
+      overflow-x: scroll; }
+
+.project .slider {
+  flex-shrink: 0;
+  flex-grow: 1;
+  width: 80vw;
+  height: 40vh;
+  margin-right: 20px; }
+  .project .slider .el {
+    display: inline-block;
+    margin: 10px;
+    width: 40%;
+    height: 30%;
+    background-color: lightgrey; }
+
+.project .text-project {
+  flex-shrink: 0;
+  flex-grow: 1;
+  background-color: yellow;
+  width: 100vw; }
